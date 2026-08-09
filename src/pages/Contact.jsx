@@ -3,8 +3,8 @@ function Contact() {
     <section className="page">
       <h1>Contact</h1>
       <p className="page-intro">
-        N'hésite pas à me contacter pour échanger sur un projet ou toute autre
-        demande.
+        Je suis à la recherche d'une alternance. N'hésite pas à me contacter
+        pour en discuter ou échanger sur un projet.
       </p>
 
       <div className="contact-grid">
