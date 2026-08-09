@@ -3,8 +3,8 @@ function Contact() {
     <section className="page">
       <h1>Contact</h1>
       <p className="page-intro">
-        N'hésite pas à me contacter pour un stage, une alternance ou simplement
-        échanger sur un projet.
+        N'hésite pas à me contacter pour échanger sur un projet ou toute autre
+        demande.
       </p>
 
       <div className="contact-grid">
@@ -14,7 +14,7 @@ function Contact() {
         </a>
         <a
           className="contact-card"
-          href="https://github.com/"
+          href="https://github.com/Mhmd-vev"
           target="_blank"
           rel="noreferrer"
         >
@@ -23,7 +23,7 @@ function Contact() {
         </a>
         <a
           className="contact-card"
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/mouhmed-allouche/"
           target="_blank"
           rel="noreferrer"
         >

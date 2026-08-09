@@ -22,10 +22,6 @@ function About() {
             <span className="fact-label">Formation</span>
             <span className="fact-value">Licence Informatique, 3e année</span>
           </div>
-          <div className="fact">
-            <span className="fact-label">Recherche</span>
-            <span className="fact-value">Stage / alternance</span>
-          </div>
         </div>
       </div>
 
@@ -67,9 +63,8 @@ function About() {
       <div className="about-block">
         <h2>Objectif</h2>
         <p>
-          Je suis à la recherche d'un stage ou d'une alternance pour mettre en
-          pratique mes compétences et continuer à progresser aux côtés d'une
-          équipe de développement.
+          Je continue à me former et à multiplier les projets pour progresser
+          en développement logiciel, aux côtés d'une équipe.
         </p>
         <Link to="/contact" className="btn btn-primary about-cta">
           Me contacter
