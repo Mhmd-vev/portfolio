@@ -7,7 +7,7 @@ function Home() {
       <section className="hero">
         <p className="hero-eyebrow">Étudiant en Licence Informatique — 3e année</p>
         <h1>
-          Salut, moi c'est <span className="highlight">Mohamed</span>.
+          Salut, moi c'est <span className="highlight">Mouhmed</span>.
         </h1>
         <p className="hero-subtitle">
           Je développe des applications et j'explore différents langages, du bas

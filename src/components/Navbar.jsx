@@ -11,9 +11,6 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
-        <NavLink to="/" className="brand" end>
-          Mohamed<span className="brand-accent">.dev</span>
-        </NavLink>
         <nav className="nav-links">
           {links.map((link) => (
             <NavLink
