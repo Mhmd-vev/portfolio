@@ -8,7 +8,7 @@ function Contact() {
       </p>
 
       <div className="contact-grid">
-        <a className="contact-card" href="mailto:mobyass.pdf@gmail.com">
+        <a className="contact-card" href="mailto:mouhmedelmahdi@gmail.com">
           <h3>✉️ Email</h3>
           <p>mouhmedelmahdi@gmail.com</p>
         </a>
