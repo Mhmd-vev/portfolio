@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <section className="hero">
-        <p className="hero-eyebrow">Étudiant en Licence Informatique · 3e année</p>
+        <p className="hero-eyebrow">Étudiant en Informatique </p>
         <h1>
           Salut, moi c'est <span className="highlight">Mouhmed</span>.
         </h1>
