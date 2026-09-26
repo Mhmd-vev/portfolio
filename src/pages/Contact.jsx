@@ -3,14 +3,15 @@ function Contact() {
     <section className="page">
       <h1>Contact</h1>
       <p className="page-intro">
-        Je suis à la recherche d'une alternance. N'hésite pas à me contacter
-        pour en discuter ou échanger sur un projet.
+        Je suis à la recherche d'une alternance (2 semaines de cours / 2
+        semaines en entreprise). N'hésite pas à me contacter pour en discuter
+        ou échanger sur un projet.
       </p>
 
       <div className="contact-grid">
-        <a className="contact-card" href="mailto:mouhmedelmahdi@gmail.com">
+        <a className="contact-card" href="mailto:mouhmed.allouchee@gmail.com">
           <h3>✉️ Email</h3>
-          <p>mouhmedelmahdi@gmail.com</p>
+          <p>mouhmed.allouchee@gmail.com</p>
         </a>
         <a
           className="contact-card"

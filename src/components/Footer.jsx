@@ -2,9 +2,9 @@ function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="footer">
-      <p>© {year} Mouhmed · Portfolio étudiant, Licence Informatique</p>
+      <p>© {year} Mouhmed · Portfolio étudiant, Master Informatique</p>
       <div className="footer-links">
-        <a href="mailto:mouhmedelmahdi@gmail.com">Email</a>
+        <a href="mailto:mouhmed.allouchee@gmail.com">Email</a>
         <a href="https://github.com/Mhmd-vev" target="_blank" rel="noreferrer">
           GitHub
         </a>

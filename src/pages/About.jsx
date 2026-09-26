@@ -11,35 +11,39 @@ function About() {
       <div className="about-block">
         <h2>Parcours</h2>
         <p>
-          Actuellement en 3e année de Licence Informatique, je me forme aux
-          fondamentaux du développement logiciel : algorithmique, structures de
-          données, programmation orientée objet, bases de données et
-          développement web. Je m'intéresse particulièrement à la conception
-          d'applications et à l'apprentissage de nouveaux langages.
+          Actuellement en Master 1 Informatique, je me forme à un large socle
+          de compétences : algorithmique, structures de données, programmation
+          orientée objet, bases de données et développement web. Je n'ai pas
+          encore arrêté mon domaine de spécialisation et j'aime explorer
+          différents langages et façons de développer.
         </p>
         <div className="fact-row">
           <div className="fact">
             <span className="fact-label">Formation</span>
-            <span className="fact-value">Licence Informatique, 3e année</span>
+            <span className="fact-value">Master 1 Informatique</span>
           </div>
           <div className="fact">
             <span className="fact-label">Recherche</span>
-            <span className="fact-value">Alternance</span>
+            <span className="fact-value">
+              Alternance (2 sem. cours / 2 sem. entreprise)
+            </span>
           </div>
         </div>
       </div>
 
-      <div className="about-block">
-        <h2>Langages</h2>
-        <div className="skill-logo-row skill-logo-row-wrap">
-          {languages.map(({ name, icon: Icon, color }) => (
-            <div key={name} className="skill-logo-card">
-              <Icon className="skill-logo" style={{ color }} aria-hidden="true" />
-              <span>{name}</span>
-            </div>
-          ))}
+      {languages.length > 0 && (
+        <div className="about-block">
+          <h2>Langages</h2>
+          <div className="skill-logo-row skill-logo-row-wrap">
+            {languages.map(({ name, icon: Icon, color }) => (
+              <div key={name} className="skill-logo-card">
+                <Icon className="skill-logo" style={{ color }} aria-hidden="true" />
+                <span>{name}</span>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="about-block">
         <h2>Outils</h2>
@@ -67,9 +71,10 @@ function About() {
       <div className="about-block">
         <h2>Objectif</h2>
         <p>
-          Je suis à la recherche d'une alternance pour mettre en pratique mes
-          compétences et continuer à progresser aux côtés d'une équipe de
-          développement.
+          Je suis à la recherche d'une alternance en informatique (rythme 2
+          semaines de cours / 2 semaines en entreprise). Mon objectif :
+          contribuer à de vrais projets tout en continuant à apprendre auprès
+          d'une équipe expérimentée.
         </p>
         <Link to="/contact" className="btn btn-primary about-cta">
           Me contacter
